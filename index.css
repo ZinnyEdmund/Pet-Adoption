@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif, verdana;
+    font-size: 1.2rem;
+    margin: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    background-image: url(lxd1zidi.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    background-color: #ffffff;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: #333333;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+input, select, textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+button{
+    background-color: #96553f;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #633c2eaf;
+}
+@media (max-width: 600px){
+    #container{
+        padding: 15px;
+    }
+    #myHeader{
+        font-size: 2rem;
+    }
+    #inut, select, textarea{
+        width: 100%;
+    }
+}

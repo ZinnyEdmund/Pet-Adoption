@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Adopt Your Favorite Animal</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+
+
+    <div id="container">
+    
+
+        <h1 id="myH1">Adopt Your Favorite Animal</h1>
+
+    <form id="sidebar">
+
+        <p>Fill out the form below to adopt an animal and give them a new home!</p>
+
+        <Label for="name" id="lab1">Your Name:</Label>
+        <input type="text" name="name" placeholder="Enter your full name" id="box1" required><br>
+
+            <label for="animal" id="animal">Select an Animal:
+            <select id="box2" name="animal" required>
+                <option value="" disabled selected>Choose an animal</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+                <option value="penguin">Penguin</option>
+                <option value="rabbit">Rabbit</option>
+                <option value="lion">Lion</option>
+                <option value="leopard">Leopard</option>
+            </select>
+        </label><br><br>
+
+        
+            <label>Why do you want to adopt this animal?
+            <textarea name="reason" id="reason" placeholder="Give your reasons"  required></textarea>
+            <br><br>
+        </label>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+</div>
+
+</body>
+</html>
