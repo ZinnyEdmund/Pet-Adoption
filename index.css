@@ -5,6 +5,8 @@ body{
     background: linear-gradient(to right, #ffecd2, #fcb69f);
     background-image: url(lxd1zidi.png);
     background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
